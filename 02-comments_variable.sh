@@ -39,3 +39,6 @@ echo " value is : $10val "
 
 val=10
 echo " value is : $val "
+
+VALUE=20
+echo " value is : $VALUE "
