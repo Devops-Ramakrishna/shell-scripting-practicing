@@ -23,19 +23,19 @@ echo " username: $user_var "
 
 echo " =========================================== "
 
-read -sp " password: " $pass_var
+read -sp ' password: ' $pass_var # s for dont show password
 echo " password: $pass_var "
 
 echo " =========================================== "
 
-echo " Enter Names: "
-read -a names
+echo " Enter Names: " # if you want mutiple enters
+read -a names # a is array
 echo " Names: ${names[0]} , ${names[1]} "
 
 echo " =========================================== "
 
 echo " Enter Name: "
-read
+read # no variable after read command
 echo " entered name: $REPLY "
 
 
