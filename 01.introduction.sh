@@ -8,3 +8,5 @@
 cat /etc/shells # what are shell types which supports by os
 
 which bash # where bash located
+
+echo " Hello world " # echo command used to print whatever you write in double coates
