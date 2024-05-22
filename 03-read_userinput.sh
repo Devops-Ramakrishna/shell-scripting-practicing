@@ -37,9 +37,3 @@ echo " =========================================== "
 echo " Enter Name: "
 read # no variable after read command
 echo " entered name: $REPLY "
-
-
-
-
-
-
