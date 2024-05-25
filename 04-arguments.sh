@@ -33,3 +33,23 @@ Quoted Values: Zara Ali
 Quoted Values: Zara Ali
 Total Number of Parameters : 2
 
+
+echo " ===================================== "
+
+#!/bin/sh
+
+for TOKEN in $*
+do
+   echo $TOKEN
+done
+
+Here is a sample run for the above script −
+
+$./test.sh Zara Ali 10 Years Old
+Zara
+Ali
+10
+Years
+Old
+
+echo " ===================================== "
