@@ -1,6 +1,6 @@
 #! /bin/bash
-# Using functions to perform repetitive tasks is an excellent way to create code reuse.
-# To declare a function, simply use the following syntax −
+# Using functions to perform repetitive tasks is an excellent way to create code reuse
+# To declare a function, simply use the following syntax 
 
 # function_name () { 
 #   list of commands
