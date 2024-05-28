@@ -1,6 +1,6 @@
 #! /bin/bash
 
-function print(){
+function print() {
     name=$1
         echo " the name is $name"
 }
@@ -16,6 +16,7 @@ function print(){
 name="tom"
 echo " the name is $name"
 print max
+
 echo " foo "
 
 echo " ============================ "
