@@ -29,7 +29,7 @@ exit 0
 echo " ============================== "
 
 file=file.txt
-trap ' rm -f $file && echo file detected; exit " 0 2 15
+trap " rm -f $file && echo file detected; exit " 0 2 15
 
 # trap - 0 2 15 #  to remove the trp
 
